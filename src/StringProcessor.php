@@ -10,6 +10,6 @@ class StringProcessor
      */
     public function getLength(string $string): int
     {
-        return mb_strlen($string);
+        return \mb_strlen($string);
     }
 }
